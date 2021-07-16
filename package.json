@@ -1,0 +1,24 @@
+{
+  "name": "epam-testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-all-edge-nopom": "testcafe edge ./nopom",
+    "test-all-edge-pom": "testcafe edge ./pom/test --reporter html:Report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emagacus/epam-testcafe.git"
+  },
+  "author": "eGallardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emagacus/epam-testcafe/issues"
+  },
+  "homepage": "https://github.com/emagacus/epam-testcafe#readme",
+  "dependencies": {
+    "testcafe": "^1.15.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
